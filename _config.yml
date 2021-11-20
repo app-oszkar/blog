@@ -1,0 +1,110 @@
+title: KiwiChat
+subtitle: IRC WebChat
+logo: "/assets/images/kiwichat.png"
+email: contact@kiwichat.ml
+description: >- # this means to ignore newlines until "baseurl:"
+  Custom KiwiChat WordPress Plugin Generator
+url: "https://kiwichat.ml.ml"
+twitter_username: showchat
+github_username: showchat
+minimal_mistakes_skin: air
+search: true
+teaser: /assets/images/blog-1200x400.png
+
+# Build settings
+markdown: kramdown
+remote_theme: kiwichat/minimal-mistakes
+# Outputting
+permalink: pretty
+paginate: 5 # amount of posts to show
+paginate_path: /blog/page:num/
+timezone: Europe/Madrid # https://en.wikipedia.org/wiki/List_of_tz_database_time_zones
+
+include:
+  - _pages
+
+# Exclude from processing.
+# The following items will not be processed, by default. Create a custom list
+# to override the default setting.
+# exclude:
+#   - Gemfile
+#   - Gemfile.lock
+#   - node_modules
+#   - vendor/bundle/
+#   - vendor/cache/
+#   - vendor/gems/
+#   - vendor/ruby/
+
+# Plugins (previously gems:)
+plugins:
+  - jekyll-paginate
+  - jekyll-sitemap
+  - jekyll-gist
+  - jekyll-feed
+  - jemoji
+  - jekyll-include-cache
+  - jekyll-seo-tag
+
+author:
+  name   : "ShowChat"
+  avatar : "/assets/images/headshots/kiwichat.png"
+  bio    : "I am a nomadic software engineer, always looking for the next challenge; no task is too frightening or too difficult."
+  links:
+    - label: "Website"
+      icon: "fas fa-fw fa-link"
+      url: "https://showchat.tk"
+    - label: "Twitter"
+      icon: "fab fa-fw fa-twitter"
+      url: "https://twitter.com/showchat"
+    - label: "Facebook"
+      icon: "fab fa-fw fa-facebook"
+      url: "https://facebook.com/showchat"
+    - label: "GitHub"
+      icon: "fab fa-fw fa-github"
+      url: "https://github.com/@kiwichat"
+
+footer:
+  links:
+    - label: "Twitter"
+      icon: "fab fa-fw fa-twitter"
+      url: "https://twitter.com/showchat"
+    - label: "GitHub"
+      icon: "fab fa-fw fa-mastodon"
+      url: "https://github.com/showchat"
+    - label: "Facebook"
+      icon: "fab fa-fw fa-facebook"
+      url: "https://facebook.com/showchat"
+
+ 
+defaults:
+  # _posts
+  - scope:
+      path: ""
+      type: posts
+    values:
+      layout: single
+      author_profile: true
+      read_time: true
+      comments: false
+      share: true
+      related: true
+  # _pages
+  - scope:
+      path: "_pages"
+      type: pages
+    values:
+      layout: single
+      author_profile: true
+
+category_archive:
+  type: liquid
+  path: /categories/
+tag_archive:
+  type: liquid
+  path: /tags/
+
+analytics:
+  provider: "google-gtag"
+  google:
+    tracking_id: "G-KIWICHAT"
+    anonymize_ip: false # default
