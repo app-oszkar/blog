@@ -61,7 +61,7 @@ author:
       url: "https://facebook.com/showchat"
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
-      url: "https://github.com/@kiwichat"
+      url: "https://github.com/kiwichat"
 
 footer:
   links:
@@ -69,8 +69,8 @@ footer:
       icon: "fab fa-fw fa-twitter"
       url: "https://twitter.com/showchat"
     - label: "GitHub"
-      icon: "fab fa-fw fa-mastodon"
-      url: "https://github.com/showchat"
+      icon: "fab fa-fw fa-github"
+      url: "https://github.com/kiwichat"
     - label: "Facebook"
       icon: "fab fa-fw fa-facebook"
       url: "https://facebook.com/showchat"
