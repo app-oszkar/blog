@@ -4,7 +4,7 @@ logo: "/assets/images/kiwichat.png"
 email: contact@kiwichat.ml
 description: >- # this means to ignore newlines until "baseurl:"
   Custom KiwiChat WordPress Plugin Generator
-url: "https://kiwichat.ml.ml"
+url: "https://kiwichat.ml"
 twitter_username: showchat
 github_username: showchat
 minimal_mistakes_skin: air
