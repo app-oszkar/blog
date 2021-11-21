@@ -1,0 +1,17 @@
+<section class="page__share">
+     <h4 class="page__share-title">Old Comments</h4>
+     
+{% for comment in  include.comments %}
+  <div class="comment notice--info">
+      <span class="comment_author">
+        <strong>{{ comment.author }}</strong>
+      </span>
+      <span class="comment_date">
+        ({{ comment.date}})
+      </span>
+    <div>
+      {{ comment.text }}
+    </div>
+  </div>
+{% endfor %}
+</section>
