@@ -54,9 +54,9 @@ comments:
   # Akismet spam detection.
   # akismet:
   #   enabled: true
-  #   author: "name"
-  #   authorEmail: "email"
-  #   authorUrl: "url"
+  #   author: "KiwiChat & ShowChat"
+  #   authorEmail: "contact@kiwichat.ml"
+  #   authorUrl: "https://kiwichat.ml"
   #   content: "message"
   #   type: "comment"
 
@@ -94,11 +94,11 @@ comments:
   transforms:
     email: md5
 
-  # reCaptcha
-  # Register your domain at https://www.google.com/recaptcha/ and choose reCAPTCHA V2
+  ## reCaptcha
+  ## Register your domain at https://www.google.com/recaptcha/ and choose reCAPTCHA V2
   reCaptcha:
     enabled: true
     siteKey: "6LczWUwdAAAAABzwaqgn6Oju6MsyTRmYyECCHNWz"
-    # Encrypt reCaptcha secret key using Staticman /encrypt endpoint
-    # For more information, https://staticman.net/docs/encryption
+  #  # Encrypt reCaptcha secret key using Staticman /encrypt endpoint
+  #  # For more information, https://staticman.net/docs/encryption
     secret: "SeAf2JdRuWOv8Gf8g7FOLNc/x/Urq6HbTpDme4jjEIw7wD7XkqTL9RnyJennLQV6SdNCM9FSWEtv8IZoZrnAFeGtY845TSHLIAqoxLc96xml89k4wSOjjnlK3BTXb5vcjUwjuudBuOY0CenBSAiUAnhkTQbbJvDFutgWcYW6Rk0="
