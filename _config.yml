@@ -113,12 +113,12 @@ comments:
   provider  : "staticman_v2"
   staticman:
     branch    : "master"
-    endpoint: "https://api-kiwichat.herokuapp.com/v2/entry/master/comments"
+    endpoint: "https://api-kiwichat.herokuapp.com/v2/entry/"
     
  # reCaptcha
   # Register your domain at https://www.google.com/recaptcha/ and choose reCAPTCHA V2
   reCaptcha:
-    enabled: true
+    enabled: false
     siteKey: "6LczWUwdAAAAADV0roSgHNr6BVOC0hx-8lVGFSfh"
     # Encrypt reCaptcha secret key using Staticman /encrypt endpoint
     # For more information, https://staticman.net/docs/encryption
