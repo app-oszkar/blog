@@ -108,7 +108,7 @@ analytics:
     tracking_id: "G-KIWICHAT"
     anonymize_ip: false # default
 
-repository  : "kiwichat/liber"
+repository  : "app-oszkar/blog"
 comments:
   provider  : "staticman_v2"
   staticman:
@@ -118,7 +118,7 @@ comments:
  # reCaptcha
   # Register your domain at https://www.google.com/recaptcha/ and choose reCAPTCHA V2
   reCaptcha:
-    enabled: false
+    enabled: true
     siteKey: "6LczWUwdAAAAADV0roSgHNr6BVOC0hx-8lVGFSfh"
     # Encrypt reCaptcha secret key using Staticman /encrypt endpoint
     # For more information, https://staticman.net/docs/encryption
