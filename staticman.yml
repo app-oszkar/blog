@@ -19,7 +19,7 @@ comments:
   # (e.g. <input name="options[origin]" value="http://yourdomain.com/post1")
   # allowedOrigins: ["yourdomain.com"]
 
-  allowedOrigins: ["kiwichat.ml"]
+  allowedOrigins: ["app-oszkar.github.io"]
   # (*) REQUIRED
   #
   # Name of the branch being used. Must match the one sent in the URL of the
@@ -98,7 +98,7 @@ comments:
   ## reCaptcha
   ## Register your domain at https://www.google.com/recaptcha/ and choose reCAPTCHA V2
   reCaptcha:
-    enabled: true
+    enabled: false
     siteKey: "6LczWUwdAAAAADV0roSgHNr6BVOC0hx-8lVGFSfh"
   #  # Encrypt reCaptcha secret key using Staticman /encrypt endpoint
   #  # For more information, https://staticman.net/docs/encryption
