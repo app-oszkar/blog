@@ -113,4 +113,5 @@ analytics:
 staticman:
   repository : "app-oszkar/blog" # GitHub username/repository eg. 
   branch     : "master" # If you're not using `master` branch, then you also need to update the `branch` parameter in `staticman.yml`
-  endpoint   : "https://ai-kiwichat.herokuapp.com/v3/entry/github/" # URL of your deployment, with a trailing slash eg. "https://<your-api>/v3/entry/github/"
+  endpoint   : "https://api-kiwichat.herokuapp.com/v3/entry/github/" # URL of your deployment, with a trailing slash eg. "https://<your-api>/v3/entry/github/"
+  path: "_data/comments/test"
