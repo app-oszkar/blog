@@ -107,7 +107,9 @@ analytics:
   google:
     tracking_id: "G-KIWICHAT"
     anonymize_ip: false # default
-
+    
+  comments:
+  provider :          "staticman"      
   staticman:
     branch               : "master"
     endpoint             : "https://api-kiwichat.herokuapp.com/v3/entry/github/"
