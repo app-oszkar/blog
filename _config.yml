@@ -110,7 +110,7 @@ analytics:
 
     
  # staticman (comments) configuration
-staticman_url: https://api-kiwichat.herokuapp.com/v2/entry/app-oszkar/blog/master/comments   
+staticman_url: "https://api-kiwichat.herokuapp.com/v2/entry/app-oszkar/blog/master/comments"   
     
  # reCaptcha
   # Register your domain at https://www.google.com/recaptcha/ and choose reCAPTCHA V2
