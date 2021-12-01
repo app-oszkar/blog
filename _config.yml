@@ -113,7 +113,12 @@ comments:
   provider  : "staticman_v2"
   staticman:
     branch    : "master"
-    endpoint: "https://api-kiwichat.herokuapp.com/v2/entry/"
+    endpoint: "https://api-kiwichat.herokuapp.com/v2/entry/apps-oszkar/blog/master/comments"
+ 
+    
+# Staticman comments
+staticmanUrl: https://api-kiwichat.herokuapp.com/v2/entry/willymcallister/willymcallister.github.io/master/comments
+enableComments: true
     
  # reCaptcha
   # Register your domain at https://www.google.com/recaptcha/ and choose reCAPTCHA V2
