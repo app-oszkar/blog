@@ -76,24 +76,25 @@ footer:
       url: "https://facebook.com/showchat"
       
       
-defaults:
+   defaults:
   # _posts
   - scope:
       path: ""
       type: posts
     values:
       layout: single
-      classes: wide
       author_profile: true
       read_time: true
       comments: true
       share: true
       related: true
-      excerpt_separator: <!--more-->
-      sidebar:
-        nav: "blog"      
-      
-      
+  # _pages
+  - scope:
+      path: "_pages"
+      type: pages
+    values:
+      layout: single
+      author_profile: true   
 
 category_archive:
   type: liquid
@@ -113,30 +114,3 @@ staticman:
   repository : "app-oszkar/blog" # GitHub username/repository eg. 
   branch     : "master" # If you're not using `master` branch, then you also need to update the `branch` parameter in `staticman.yml`
   endpoint   : "https://ai-kiwichat.herokuapp.com/v3/entry/github/" # URL of your deployment, with a trailing slash eg. "https://<your-api>/v3/entry/github/"
-
-# Default YAML values (more information on Jekyll's site)
-defaults:
-  -
-    scope:
-      path: ""
-      type: "posts"
-    values:
-      layout: "post"
-      comments: true  # add comments to all blog posts
-      social-share: true # add social media sharing buttons to all blog posts
-  -
-    scope:
-      path: "" # any file that's not a post will be a "page" layout by default
-    values:
-      layout: "page"
-
-
- # reCaptcha
-  # Register your domain at https://www.google.com/recaptcha/ and choose reCAPTCHA V2
-  reCaptcha:
-    enabled: false
-    siteKey: "6LczWUwdAAAAADV0roSgHNr6BVOC0hx-8lVGFSfh"
-    # Encrypt reCaptcha secret key using Staticman /encrypt endpoint
-    # For more information, https://staticman.net/docs/encryption
-    secret: "V0Bar17DP0ejv5dszJz4pVcqU9oKPRfu1FyQOAb0BFkideBYmiAcOtea+NQ8IzQxFmqVLWARd3hvpv8p3Shrfv9mNwol3mcwcb1ZMZRHu66jk6Y7yHhWOi4ZPtO9AESzh6/wWHKxn+c8f2UpmMgZPIJJXzmnRfJlUKJT0tPt1sw="
-    
