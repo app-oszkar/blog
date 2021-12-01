@@ -26,8 +26,8 @@ include:
 # Exclude from processing.
 # The following items will not be processed, by default. Create a custom list
 # to override the default setting.
-# exclude:
-#   - Gemfile
+ exclude:
+ Gemfile
 #   - Gemfile.lock
 #   - node_modules
 #   - vendor/bundle/
@@ -113,6 +113,23 @@ staticman:
   repository : "app-oszkar/blog" # GitHub username/repository eg. 
   branch     : "master" # If you're not using `master` branch, then you also need to update the `branch` parameter in `staticman.yml`
   endpoint   : "https://ai-kiwichat.herokuapp.com/v3/entry/github/" # URL of your deployment, with a trailing slash eg. "https://<your-api>/v3/entry/github/"
+
+# Default YAML values (more information on Jekyll's site)
+defaults:
+  -
+    scope:
+      path: ""
+      type: "posts"
+    values:
+      layout: "post"
+      comments: true  # add comments to all blog posts
+      social-share: true # add social media sharing buttons to all blog posts
+  -
+    scope:
+      path: "" # any file that's not a post will be a "page" layout by default
+    values:
+      layout: "page"
+
 
  # reCaptcha
   # Register your domain at https://www.google.com/recaptcha/ and choose reCAPTCHA V2
