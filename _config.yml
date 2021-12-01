@@ -117,7 +117,7 @@ comments:
  
     
 # Staticman comments
-staticmanUrl: https://api-kiwichat.herokuapp.com/v2/entry/willymcallister/willymcallister.github.io/master/comments
+staticmanUrl: "https://api-kiwichat.herokuapp.com/v2/entry/willymcallister/willymcallister.github.io/master/comments"
 enableComments: true
     
  # reCaptcha
