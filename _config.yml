@@ -108,10 +108,12 @@ analytics:
     tracking_id: "G-KIWICHAT"
     anonymize_ip: false # default
 
-    
- # staticman (comments) configuration
-staticman_url: "https://api-kiwichat.herokuapp.com/v2/entry/app-oszkar/blog/master/comments"   
-ignore_theme_config: true  
+
+staticman:
+  repository : "app-oszkar/blog" # GitHub username/repository eg. 
+  branch     : "master" # If you're not using `master` branch, then you also need to update the `branch` parameter in `staticman.yml`
+  endpoint   : "https://ai-kiwichat.herokuapp.com/v3/entry/github/" # URL of your deployment, with a trailing slash eg. "https://<your-api>/v3/entry/github/"
+
  # reCaptcha
   # Register your domain at https://www.google.com/recaptcha/ and choose reCAPTCHA V2
   reCaptcha:
