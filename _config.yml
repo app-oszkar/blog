@@ -108,11 +108,10 @@ analytics:
     tracking_id: "G-KIWICHAT"
     anonymize_ip: false # default
 
-
+  staticman:
+    branch               : "master"
+    endpoint             : "https://api-kiwichat.herokuapp.com/v3/entry/github/"
     
-staticman:
-  api: "https://api.kiwichat.herokuapp.com/v3/entry/github/app-oszkar/blog/master/comments"
-  path: "_data/comments/test"
     
  # reCaptcha
   # Register your domain at https://www.google.com/recaptcha/ and choose reCAPTCHA V2
