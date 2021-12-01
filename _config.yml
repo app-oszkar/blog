@@ -112,6 +112,7 @@ analytics:
     
 staticman:
   api: "https://api.kiwichat.herokuapp.com/v3/entry/github/app-oszkar/blog/master/comments"
+  path: "_data/comments/test"
     
  # reCaptcha
   # Register your domain at https://www.google.com/recaptcha/ and choose reCAPTCHA V2
